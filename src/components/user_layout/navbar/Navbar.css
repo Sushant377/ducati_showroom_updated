@@ -1,0 +1,38 @@
+.header > ul {
+  display: flex;
+  background-color: #d10e0e;
+  color: white;
+  padding: 0 10px 0 10px;
+  justify-content: space-around;
+  list-style-type: none;
+
+  font-size: large;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.header > ul > li > a {
+  color: white;
+}
+.active-nav {
+  color: rgb(0, 0, 0) !important;
+}
+.header {
+  height: 55px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+
+.logo {
+  height: 35px;
+  width: 88px;
+  content: url("/ducat.jpg");
+}
+.header > ul > li > a:hover {
+  border-radius: 9px;
+  background-color: aliceblue;
+  color: rgb(0, 0, 0);
+}
+.header > ul > li {
+  margin-top: 15px;
+}

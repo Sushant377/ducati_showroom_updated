@@ -1,0 +1,28 @@
+.sidenav {
+  height: 20%;
+  background-color: rgba(0, 0, 0, 0.897);
+  overflow: auto;
+  padding: 10px;
+}
+.sidenav > ul > li a {
+  color: #ffffff;
+  display: flex;
+  padding-bottom: 10px;
+}
+.sidenav > ul > li {
+  list-style-type: none;
+}
+
+.outlet {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+.contain {
+  display: flex;
+  height: 100%;
+}
+.active-side {
+  background-color: rgb(0, 0, 0) !important;
+}

@@ -1,0 +1,52 @@
+para {
+  font-size: xxx-large;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+
+  color: #a51414;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+label {
+  margin-bottom: 8px;
+  color: #000000;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+input,
+textarea {
+  padding: 10px;
+  margin-bottom: 16px;
+  border: 1px solid #725353;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+submitbutton {
+  background-color: #df1515;
+  color: #ffffff;
+  padding: 12px;
+  margin-top: 15px;
+  border: none;
+  border-radius: 17px;
+  cursor: pointer;
+  font-size: 20px;
+  text-align: center;
+}
+
+submitbutton:hover {
+  color: #000000;
+  background-color: #aa9898;
+}
+.contactbody {
+  margin-bottom: 100px;
+  margin-top: 15px;
+}

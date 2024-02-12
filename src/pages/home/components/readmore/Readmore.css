@@ -1,0 +1,9 @@
+.shorttext {
+  text-align: center;
+  word-wrap: break-word;
+}
+.readingbutton {
+  background-color: red;
+  color: blue;
+  border: 1 px solid black;
+}

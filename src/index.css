@@ -1,0 +1,12 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  height: 100vh;
+  background-color: #ffffff;
+  background-image: linear-gradient(315deg, #ffffff 0%, #cdd4f7 74%);
+}
+#root {
+  height: 100%;
+}

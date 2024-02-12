@@ -1,0 +1,14 @@
+.footer {
+  position: sticky;
+  margin-top: auto;
+  height: 100%;
+  text-align: center;
+  padding: 0px;
+  background-color: #d10e0e;
+  font-size: xx-large;
+  color: white;
+}
+.footer a {
+  font-size: x-large;
+  color: rgb(238, 244, 248);
+}
